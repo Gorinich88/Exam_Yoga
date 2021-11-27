@@ -101,7 +101,6 @@ a:hover {
   width: 300px;
   height: 75px;
   border: none;
-  font-family: Heebo;
 }
 .img_meditations {
 padding-top: 70px;
@@ -109,4 +108,117 @@ width: 591px;
 height: 558px;
 justify-content: center;
 display: flex;
+}
+
+.tools {
+  width: auto;
+  height: 700px;
+  background-color: #ECFAF8;
+  display: flex;
+
+}
+.tools_meditation {
+  display: block;
+  width: 420px;
+  height: 535px;
+  background-color: #FFFFFF;
+  margin-top: 120px;
+  margin-left: auto;
+  border-radius: 14px;
+}
+.tools_img1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.tools_title {
+  display: flex;
+  justify-content: center;
+  font-family: Heebo;
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+}
+.tools_text {
+  display: flex;
+  text-align: center;
+  font-family: Heebo;
+  font-size: 18px;
+  color: #000000;
+  width: 324px;
+  height: 92px;
+  padding-left: 48px;
+}
+.tools_btn1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+
+}
+.tools_btn {
+  background-color: #1B9585;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-family: Heebo;
+  border: none;
+  width: 210px;
+  height: 55px;
+  border-radius: 30px;
+}
+.tools_yoga {
+  display: block;
+  width: 420px;
+  height: 535px;
+  background-color: #FFFFFF;
+  margin-top: 120px;
+  margin-left: auto;
+  border-radius: 14px;
+}
+.tools_sound {
+  display: block;
+  width: 420px;
+  height: 535px;
+  background-color: #FFFFFF;
+  margin-top: 120px;
+  margin-left: auto;
+  border-radius: 14px;
+  margin-right: 25px;
+}
+
+.practice {
+  width: auto;
+  height: 1075px;
+  background-color: #ECFAF8;
+}
+.practice_title {
+  margin: 0;
+  width: 706px;
+  height: 140px;
+  color: #000000;
+  font-size: 54px;
+  font-family: Merienda One;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 330px;
+  padding-top: 70px;
+}
+.practice_text {
+  color: #000000;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  width: 1105px;
+  height: 62px;
+  font-size: 24px;
+  font-family: Heebo;
+  text-align: center;
+  padding-top: 22px;
+  margin-left: 135px;
+}
+.practice_img {
+  padding-top: 94px;
+  display: flex;
+  width: 745px;
+  height: 594px;
 }
