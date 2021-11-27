@@ -40,6 +40,9 @@ li {
   list-style-type: none;
   padding-left: 75px;
 }
+p {
+  margin: 0;
+}
 
 a {
   text-decoration: none;
@@ -186,6 +189,8 @@ display: flex;
 }
 
 .practice {
+  display: flex;
+  flex-wrap: wrap;
   width: auto;
   height: 1075px;
   background-color: #ECFAF8;
@@ -219,6 +224,52 @@ display: flex;
 .practice_img {
   padding-top: 94px;
   display: flex;
-  width: 745px;
-  height: 594px;
+  justify-content: start;
+  width: 700px;
+  height: 400px;
+}
+.practice_subtitle1 {
+  width: 570px;
+  height: 200px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  margin-top: 70px;
+  padding-top: 15px;
+  padding-left: 40px;
+  border-radius: 10px;
+}
+.practice_subtitle_first {
+  color: #000000;
+  opacity: 0.8;
+  font-family: Heebo;
+  font-size: 28px;
+  margin: 0;
+  padding-top: 10px;
+}
+.practice_subtext_first {
+
+  font-family: Heebo;
+  font-size: 22px;
+  color: #000000;
+  opacity: 0.5;
+  margin-bottom: 35px;
+}
+.practice_subtitle2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  padding-top: 50px;
+  width: 500px;
+  height: 157px;
+  padding-left: 200px;
+}
+.practice_subtitle_second {
+  color: #000000;
+  opacity: 0.8;
+  font-family: Heebo;
+  font-size: 28px;
+  margin: 0;
+  padding-top: 10px;
 }
